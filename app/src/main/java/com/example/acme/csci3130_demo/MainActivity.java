@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buttonOnClick(View v) {
-        Button button = (Button) v;
         edit = findViewById(R.id.editText);
         text = findViewById(R.id.textView);
         text.setText(edit.getText());
